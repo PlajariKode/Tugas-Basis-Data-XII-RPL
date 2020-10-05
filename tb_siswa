@@ -1,0 +1,12 @@
+CREATE TABLE `tb_siswa` (
+  nis int(10) NOT NULL PRIMARY KEY,
+  nama varchar(50) NOT NULL,
+  nilai_produktif int(3) NOT NULL
+);
+
+INSERT INTO `tb_siswa` VALUES (20201001, 'Januar', 70), 
+                              (20201002, 'Febri', 89), 
+                              (20201003, 'Mark', 67), 
+                              (20201004, 'April', 88), 
+                              (20201005, 'Mae', 77), 
+                              (20201006, 'June', 62);

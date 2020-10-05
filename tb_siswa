@@ -12,3 +12,15 @@ INSERT INTO `tb_siswa` VALUES (20201001, 'Januar', 70),
                               (20201004, 'April', 88), 
                               (20201005, 'Mae', 77), 
                               (20201006, 'June', 62);
+
+-- (Contoh) Tampilkan semua datanya
+SELECT * FROM `tb_siswa`
+
+-- (Tugas) Menampilkan jumlah record
+...
+
+-- (Tugas) Menampilkan jumlah nilai semua siswa
+...
+
+-- (Tugas) Menampilkan nilai rata-rata dari semua siswa
+...
